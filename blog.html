@@ -41,12 +41,12 @@
 
       <div class="mb-4">
         <h2 class="text-lg font-bold">Q: How the quizTimer function Work?</h2>
-        <p class="mt-2"> The function for updating a countdown timer on a web page, and stopping the timer when the dismiss argument is truthy. The function first checks if dismiss is truthy. If it is, the function clears the timer using the clearInterval and returns from the function. If dismiss is false, the function sets up a timer using the setInterval. This timer runs a callback function every 1 second. Inside innerHTML of an element with ID "count" to the formatted string.</p>
+        <p class="mt-2"> The function for updating countdown timer on website, and stopping the timer when the dismiss argument is truthy. The function first checks if dismiss is truthy. If it is, the function clears the timer using the clearInterval and returns from the function. If dismiss is false, the function sets up a timer using the setInterval. This timer runs a callback function every 1 second. Inside innerHTML of an element with ID count to the formatted string.</p>
       </div>
 
       <div class="mb-4">
         <h2 class="text-lg font-bold">Q: How the chooseQuiz function Work?</h2>
-        <p class="mt-2">The event loop is a mechanism that allows the JavaScript engine to handle asynchronous code by continuously checking for and executing tasks that are waiting in a queue. When an asynchronous task is started, it is added to the queue, and the JavaScript engine continues to execute the rest of the code. When the task is completed, a callback function is added to the queue to handle the result.</p>
+        <p class="mt-2">This function for storing the selected answer for a quiz question and displaying all the answers. The function first checks if the answers array contains an object with an id that matches the id of the current quiz question. using find on the answers array. If an object with a matching id is found in answers, the function updates that object's givenAns property to the new givenAns value. on answers array using a for...of loop, and updating the object with splice. If no object with a matching id is found in answers, the function creates a new object with the id and givenAns properties of the current quiz question and adds it to the answers array using the push. The function calls another function called displayAnswers and passes the answers array to it</p>
       </div>
       
     </div>
